@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <h1><img id="navlogo" src="imagens/programa1.jpg"></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a> </li>
+                    <li><a href="serviços.html">Serviços</a> </li>
+                    <li><a href="contato.html">contato</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form>
+            <label form="nome" >Nome completo</label>
+            <input type="text" id="nome" required placeholder="nome completo">
+
+            <label form="email" >E-mail</label>
+            <input type="text" id="email" required placeholder="exemplo@gmail.com">
+
+            <label form="telefone" >Celular</label>
+            <input type="text" id="telefone" required placeholder="(xx) xxxxx-xxxx">
+
+            <label form="mensagem">mensagem</label>
+            <textarea cols="70" rows="10" id="mensagem" ></textarea>
+            <div>
+
+                <p>Forma de contato preferencial?</p>
+                <label for="radio-email">
+                    <input type="radio" id="radio-email" value="email" name="contato">E-mail</label>
+
+                <label for="radio-telefone">
+                    <input type="radio" id="radio-telefone" value="telefone" name="contato">Telefone</label>
+
+                <label for="radio-whatsap">
+                    <input type="radio" id="radio-whatsap" value="whatsap" name="contato" checked>Whatsap</label>
+            </div>
+
+            <div>
+                <p>Qual dia gostaria de ser atendido?</p>
+                <select>
+                    <option>Segunda</option>
+                    <option>Terça</option>
+                    <option>Quarta</option>
+                    <option>Quinta</option>
+                    <option>Sexta</option>
+                    <option>Sabado</option>
+                </select>
+            </div>
+
+            <label class="checkbox">
+                <input type="checkbox" checked>
+                Gostaria de receber nossas novidades por e-mail?
+            </label>
+
+            <input type="submit" class="enviar" id="enviar"> 
+    </main>
+        </form>
+    <main>
+        <label id="tabela">Tabela de dias e horários de atendimento!</label>
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horário</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Segunda</td>
+                    <td>08H - 21H</td>
+                </tr>
+                 <tr>
+                    <td>Terça</td>
+                    <td>08H - 21H</td>
+                </tr>
+                 <tr>
+                    <td>Quarta</td>
+                    <td>08H - 21H</td>
+                </tr>
+                 <tr>
+                    <td>Quinta</td>
+                    <td>08H - 21H</td>
+                </tr>
+                 <tr>
+                    <td>Sexta</td>
+                    <td>08H - 21H</td>
+                </tr>
+                 <tr>
+                    <td>Sábado</td>
+                    <td>08H - 19H</td>
+                </tr>
+            </tbody>
+        </table>
+        <div>
+        <a href="https:wa.me/5542999513941" class="botao-whatsap" target="_blank"estyle="background-color: #25D366; color: #ffffff padding: 12px 15px text-decoration: none border-radius: 8px font-weight: bold display: block"></a>
+            Acessar meu contato
+        </div>
+
+    </div>
+    </main>
+    
+    <footer>
+        <p>&copy;copyrigth - Lucas Goncalves - Téc. em informática - 2026</p>
+        <P>Todos os devidos <stroug></stroug></em> Direitos reservados</P>
+    </footer>
+</body>
+</html>
+ 
