@@ -26,9 +26,10 @@ nav {
 }
 
 #navlogo {
-   max-width: 100%;
-    height: auto;
-    max-height: 80px;
+   width: 100%;
+    height: 160px;
+    object-fit: cover;
+    object-position: center;
 }
 
 #imgman {
