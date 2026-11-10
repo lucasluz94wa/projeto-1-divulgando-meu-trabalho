@@ -36,29 +36,29 @@
 
                 <p>Forma de contato preferencial?</p>
                 <label for="radio-email">
-                    <input type="radio" id="radio-email" value="email" name="contato">E-mail</label>
+                    <input type="radio" id="radio-email" value="email" name="form_de_contato">E-mail</label>
 
                 <label for="radio-telefone">
-                    <input type="radio" id="radio-telefone" value="telefone" name="contato">Telefone</label>
+                    <input type="radio" id="radio-telefone" value="telefone" name="form_de_contato">Telefone</label>
 
                 <label for="radio-whatsap">
-                    <input type="radio" id="radio-whatsap" value="whatsap" name="contato" checked>Whatsap</label>
+                    <input type="radio" id="radio-whatsap" value="whatsap" name="form_de_contato" checked>Whatsap</label>
             </div>
 
             <div>
                 <p>Qual dia gostaria de ser atendido?</p>
-                <select>
-                    <option>Segunda</option>
-                    <option>Terça</option>
-                    <option>Quarta</option>
-                    <option>Quinta</option>
-                    <option>Sexta</option>
-                    <option>Sabado</option>
+                <select name="dia_atendimento">
+                    <option value="Segund-feira">Segunda</option>
+                    <option value="Terca-feira">Terça</option>
+                    <option value="Quarta-feira">Quarta</option>
+                    <option value="Quinta-feira">Quinta</option>
+                    <option value="Sexta-feira">Sexta</option>
+                    <option value="Sabado">Sábado</option>
                 </select>
             </div>
 
             <label class="checkbox">
-                <input type="checkbox" checked>
+                <input type="checkbox" name="receber_novidades" value="sim" checked>
                 Gostaria de receber nossas novidades por e-mail?
             </label>
 
