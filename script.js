@@ -1,8 +1,8 @@
-function abrirmodal(iddomodal) {
+function abrirModal(iddomodal) {
     document.getElementById(iddomodal).style.display = "block";
 }
 
-function fecharmodal(iddomodal) {
+function fecharModal(iddomodal) {
     document.getElementById(iddomodal).style.display = "none";
 }
 

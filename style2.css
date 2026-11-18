@@ -191,6 +191,17 @@ td, tr {
     z-index: 1000;
 }
 
+.modal-caixa {
+    background-color: #fff;
+    width: 80%;
+    max-width: 500px;
+    margin: 10% auto;
+    padding: 25px;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
 .modal-caixa h2 {
     margin-top: 0;
     color: #0056b3;
