@@ -21,17 +21,17 @@
     </header>
     <main>
         <ul class="desc">
-            <li>
+            <li onclick="abrirModal('modal-sistema')" style="cursor: pointer;">
                 <h2>Istalação de Sistema</h2>
                 <img src="imagens/istalaçao.jpg">
                 <p>Windows e Linux</p>
             </li> 
-             <li>
+             <li onclick="abrirModal('modal-antivirus')" style="cursor: pointer;">
                 <h2>Anti-virus</h2>
                 <img src="imagens/anti-virus.jpg">
                 <p>Deixo seu computador seguro</p>
              </li>
-              <li>
+              <li onclick="abrirModal('modal-manutencao')" style="cursor: pointer;">
                 <h2>Manutenção</h2>
                 <img src="imagens/manutencao.jpg" id="imgman">
                 <p>Desktops e Laptops</p>
@@ -42,5 +42,49 @@
         <p>&copy;copyrinth - Lucas Goncalves - Téc. em informática - 2026</p>
          <P>Todos os devidos <stroug></stroug></em> Direitos reservados
     </footer>
+
+    <div id="modal-sistema" class="modal-fundo">
+        <div class="modal-caixa">
+            <span class="fechar" onclick="fecharModal('modal-sistema')">&times;</span>
+            <h2>Istalação de Sistema</h2>
+            <p>Escolha a opção ideal para sua máquina:</p>
+            <ul>
+                <li><strong>Windows 10 ou 11 Pro:</strong> Formatação completa + pacote office.</li>
+                <li><strong>Linux (Ubuntu / Mint):</strong> Sistema rápido e leve para trabalho ou estudo.</li>
+                <li><strong>Dual Boot:</strong> Windows e Linux instalados simultaneamente no mesmo PC.</li>
+            </ul>
+            <a href="https://wa.me/5542999513941?text=Olá! Gostaria de orçamento para instalação de sistema." target="_blank" class="btn-whats">Pedir orçamento via WhatsApp</a>
+        </div>
+    </div>
+
+    <div id="modal-antivirus" class="modal-fundo">
+        <div class="modal-caixa">
+            <span class="fechar" onclick="fecharModal('modal-antivirus')">&times;</span>
+            <h2>Proteção e Anti-virus</h2>
+            <p>Segurança contra vírus, invasões e lentidão:</p>
+            <ul>
+                <li><strong>Remoção de vírus:</strong> Limpeza completa do sistema para eliminar ameaças sem perder seus arquivos.</li>
+                <li><strong>Kaspersky / Bitdefender:</strong> Istalação e ativação de licença original.</li>
+                <li><strong>Brindagem de Navegador:</strong> Bloqueio de anúncios e sites maliciosos.</li>
+            </ul>
+            <a href="https://wa.me/5542999513941?text=Olá! Tenho interesse no serviço de proteção e anti-virus." target="_blank" class="btn-whats">Proteger meu PC agora.</a>
+        </div>
+    </div>
+
+    <div id="modal-manutencao" class="modal-fundo">
+        <div class="modal-caixa">
+            <span class="fechar" onclick="fecharModal('modal-manutencao')">&times;</span>
+            <h2>Manutenção Preventiva e Corretiva</h2>
+            <p>Deixe seu computador ou notebook novo de novo:</p>
+            <ul>
+                <li><strong>Limpeza de interna + pasta Térmica:</strong> Evita superaquecimento e melhora o desempenho.</li>
+                <li><strong>Upgrade de SSD e Memória RAM:</strong> Deixa o sistema até 10x mais rápido.</li>
+                <li><strong>Troca de peças:</strong> Telas, teclados, baterias e fontes.</li>
+            </ul>
+            <a href="https://wa.me/5542999513941?text=Olá! Presciso de manutenção no meu computador." target="_blank" class="btn-whats">Agendar avaliação</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

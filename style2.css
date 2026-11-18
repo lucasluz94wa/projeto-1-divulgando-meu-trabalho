@@ -179,3 +179,47 @@ td, tr {
     background-color: #128c7e;
     transform: translateY(-2px);
 }
+
+.modal-fundo {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 1000;
+}
+
+.modal-caixa h2 {
+    margin-top: 0;
+    color: #0056b3;
+}
+
+.fechar {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    color:#888;
+}
+
+.fechar:hover {
+    color: #000;
+}
+
+.btn-whats {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-whats:hover {
+    background-color: #1ebe57;
+}
